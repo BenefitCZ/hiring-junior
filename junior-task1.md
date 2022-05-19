@@ -26,7 +26,7 @@
 
 * [Management studio](https://go.microsoft.com/fwlink/?linkid=849819) - nástroj pro administraci DB, SQL dotazy
 
-![](imagesStudentSMSLogin.png)
+![](.\images\StudentSMSLogin.png)
 
 ## Struktura aplikace (stránky)
 
