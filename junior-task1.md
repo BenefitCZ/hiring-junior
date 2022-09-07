@@ -22,23 +22,21 @@
 
 ## Databáze k dispozici
 
-* MS SQL Server na adrese q.benefitcz.cz, port 34777, databáze STUDENT1, login a heslo budou zaslány individuálně
+* MS SQL Server na adrese q.benefitcz.cz, port 34777, databáze STUDENT1, **login a heslo budou zaslány individuálně**
 
-* [Management studio](https://go.microsoft.com/fwlink/?linkid=849819) - nástroj pro administraci DB, SQL dotazy
+* [Management studio](https://go.microsoft.com/fwlink/?linkid=849819) nebo [Azure Data Studio]([Azure Data Studio | Microsoft Azure](https://azure.microsoft.com/en-us/services/developer-tools/data-studio/)) - nástroj pro administraci DB, SQL dotazy
 
 ![SMS login](images/StudentSMSLogin.png)
 
 ## Struktura aplikace (stránky)
 
-* Přihlášení (není nutné)
+* Zobrazení výpisu budov – proklik na detail (sběr dat)
 
-* Zobrazení výpisu budov po přihlášení – proklik na detail (sběr dat)
-  
-  * Jako datový zdroj použijte připravené databázové view SVERENE_BUDOVY, filtrované pro s_ico 60680318
+* * Jako datový zdroj použijte připravené databázové view SVERENE_BUDOVY, filtrované pro s_ico 60680318
   
   * Výpis ve mřížce
   
-  * proklik na detail
+  * proklik na detail - formulář pro sběr dat
 
 * Formulář pro sběr dat pro jednu budovu - detail page
   
