@@ -1,10 +1,6 @@
 # Lokalizační modul - převedení z WPF do ASP.NET MVC
 
-
-
 Nový samostaný projekt, cílem projektu je převést stávající modul pro lokalizace hodnto v databázi z technologie WPF do webového prostředí provotně ASP.NET Mvc (následně ASP.NET WebApi+React, není předmětem)
-
-
 
 ## Fáze projektu
 
@@ -19,8 +15,6 @@ Nový samostaný projekt, cílem projektu je převést stávající modul pro lo
 5. Export do XLS (nahrazení ExcelDataReader v Lokaliazace.BL na NPOI)
 
 6. Import z XLS (nahrazení ExcelDataReader v Lokaliazace.BL na NPOI)
-
-
 
 ## Použité technologie
 
@@ -40,8 +34,6 @@ Nový samostaný projekt, cílem projektu je převést stávající modul pro lo
 
 - Git, GitHub
 
-
-
 ## Databáze
 
 * q.benefitcz.cz, 34777
@@ -50,24 +42,14 @@ Nový samostaný projekt, cílem projektu je převést stávající modul pro lo
 
 * tabulka LANG_TABLE_DEF - definice lokalizačních položek
 
-* 
 
 
+## Postup
 
+* Založit projekt ASP.NET MVC, Bootstrap
 
+* Referncovat Benefit.Lokalizace.BL
 
+* Vytvořit spojení k databázi, výpis lokalizačních položek
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* ...
